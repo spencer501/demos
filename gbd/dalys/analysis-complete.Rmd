@@ -9,7 +9,7 @@ In this exercise, we'll compare how different **metrics of disease burden** tell
 # Set up 
 library(dplyr)
 library(knitr)
-setwd('~/Documents/info-498c/demos/gbd/dalys')
+setwd('~/Code/info498c/demos/gbd/dalys')
 
 
 # Load data
