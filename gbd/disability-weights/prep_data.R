@@ -1,6 +1,7 @@
 # Set up
 setwd('~/Documents/info-498c/demos/gbd/disability-weights/')
 library(dplyr)
+library(tidyr)
 
 # Read in cause hierarchy
 cause.hierarchy <- read.csv('./data/raw/gbd-cause-hierarchy.csv', stringsAsFactors = FALSE) %>% 
