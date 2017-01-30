@@ -3,7 +3,7 @@
 # Set up
 library(tidyr)
 library(dplyr)
-setwd('~/Documents/info-498c/demos/gbd/hale/')
+setwd('~/Code/info498c/demos/gbd/hale/')
 
 # Load data
 hale.data <- read.csv('./data/prepped/hale-le-data.csv', stringsAsFactors = FALSE)
@@ -16,7 +16,7 @@ plot(hale.data$le, hale.data$hale)
 # As life expectancy increases, at what rate does hale increase?
 
 # Compute change in life expectancy, change in hale
-wide.data <- wide.data %>% 
+wide.data <- wide.data %>%
               mutate(hale.change = hale.2015 - hale.1990, le.change = le.2015 - le.1990)
 
 # Assess relationship between change

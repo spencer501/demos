@@ -10,5 +10,11 @@ Additional data downloaded from:
 In this exercise, you should answer the following questions using the data provided (it may be helpful to use the `-wide` data in some instances). Before you begin, consider **how to assess compression/expansion** given life expectancy and hale data.
 
 - Are HALE and life expectancy correlated (visually, statistically)?
+
+	> There is a strong correlation between life expextancy and HALE, **.997**. This shows itself as a strong, positive slope when life expectancy is plotted agianst HALE.
+
 - As life expectancy increases, at what rate does hale increase?
-- 
+
+	> HALE has increased faster than life expectancy, meaning people are gaining more healthy years faster than their life expectancy is increasing in general. This mean there is compression. Approximatly, people's lives are getting healthier 10% faster than their lives are increaseing.
+
+:)
