@@ -2,6 +2,7 @@
 
 # Set up
 setwd('~/Code/info498c/demos/gbd/disability-weights/')
+
 library(dplyr)
 library(tidyr)
 
@@ -47,6 +48,7 @@ more.ylds.than.ylls <- more.ylds.than.ylls %>%
     mutate(ratio = prevalence / deaths)
 
 # Which disease has the most similar burden of YLLs and YLDs (where ylls > 0)?
+
 
 # For the following section, keep only the cause names and disability weights
 
